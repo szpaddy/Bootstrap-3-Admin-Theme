@@ -1,7 +1,5 @@
 # Bootstrap 3.x Admin's Theme
 
----
-
 Details:
 
 * An admin theme built with [Bootstrap 3.x](http://getbootstrap.com).  
@@ -9,8 +7,6 @@ Details:
 * Inspired by and based on [Bootstrap-Admin-Theme](https://github.com/VinceG/Bootstrap-Admin-Theme)
 
 ## Pages
-
----
 
 * Dashboard
 * ~~Calendar~~ (not implemented yet)
@@ -22,8 +18,6 @@ Details:
 * UI & Interface
 
 ## License
-
----
 
 The MIT License (MIT)
 
