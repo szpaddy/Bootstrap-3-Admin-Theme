@@ -6,6 +6,10 @@ Details:
 * Free for personal and commercial use
 * Inspired by and based on [Bootstrap-Admin-Theme](https://github.com/VinceG/Bootstrap-Admin-Theme)
 
+## Demo
+
+[http://github.meritoo.pl/Bootstrap-3-Admin-Theme](http://github.meritoo.pl/Bootstrap-3-Admin-Theme)
+
 ## Pages
 
 * Dashboard
