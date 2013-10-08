@@ -12,6 +12,7 @@ Details:
 
 ## Pages
 
+* Login
 * Dashboard
 * ~~Calendar~~ (not implemented yet)
 * ~~Statistics (Charts)~~ (not implemented yet)
