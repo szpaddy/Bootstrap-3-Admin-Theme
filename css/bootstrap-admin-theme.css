@@ -45,7 +45,7 @@ body{
     line-height: normal;
 }
 .form-group label{
-    line-height: 27px;
+    line-height: 25px;
 }
 
 /** Title of container for lists, some content etc. **/
@@ -200,7 +200,7 @@ footer p{
 .bootstrap-admin-login-form{
     max-width: 400px;
     padding: 30px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     background-color: #FFF;
     border: 1px solid #E5E5E5;
     -webkit-border-radius: 5px;
