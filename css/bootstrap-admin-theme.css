@@ -40,6 +40,14 @@ body{
     margin-left: 0px;
 }
 
+/** Forms */
+.form-group label.control-label{
+    line-height: normal;
+}
+.form-group label{
+    line-height: 27px;
+}
+
 /** Title of container for lists, some content etc. **/
 .bootstrap-admin-box-title{
     display: inline;
