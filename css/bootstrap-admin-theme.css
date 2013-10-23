@@ -56,6 +56,14 @@ body.bootstrap-admin-with-small-navbar{
     display: inline;
 }
 
+/** Title of the content */
+.bootstrap-admin-content-title h1{
+    margin-top: 0;
+}
+.bootstrap-admin-content-title .action{
+    float: right;
+}
+
 /** Content of the panel **/
 .bootstrap-admin-panel-content{
     padding: 15px;
