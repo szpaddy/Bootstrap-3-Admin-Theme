@@ -34,6 +34,9 @@ body{
     background-color: rgba(245, 245, 245, 0.5);
     padding-top: 70px; /* Required, because main menu / navbar has "navbar-fixed-top" class and is sticked to the top */
 }
+body.bootstrap-admin-with-small-navbar{
+    padding-top: 95px;
+}
 
 /** Main container **/
 #content {
@@ -71,6 +74,26 @@ body{
 /** Left, the first, column **/
 .bootstrap-admin-col-left{
     padding-left: 0;
+}
+
+/** Horizontal navbars */
+.bootstrap-admin-navbar-sm{
+    background-image: none;
+    border: 0;
+    box-shadow: initial;
+    margin-bottom: 0;
+    min-height: initial;
+    z-index: 1040;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child{
+    margin-left: -15px;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li a{
+    font-size: 13px;
+    padding: 3px 8px;
+}
+.bootstrap-admin-navbar-under-small{
+    top: 25px;
 }
 
 /** Side Bar **/
