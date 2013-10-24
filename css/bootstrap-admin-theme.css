@@ -58,10 +58,24 @@ body.bootstrap-admin-with-small-navbar{
 
 /** Title of the content */
 .bootstrap-admin-content-title h1{
+    display: inline-block;
     margin-top: 0;
 }
 .bootstrap-admin-content-title .action{
     float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+.bootstrap-admin-content-title .action:first-of-type{
+    margin-right: 0;
+}
+.bootstrap-admin-content-title .action.btn{
+    padding-left: 0;
+    padding-right: 0;
+}
+.bootstrap-admin-content-title .action.btn:active{
+    box-shadow: none;
 }
 
 /** Content of the panel **/
