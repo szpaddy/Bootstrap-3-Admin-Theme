@@ -74,7 +74,9 @@ body.bootstrap-admin-with-small-navbar{
     padding-left: 0;
     padding-right: 0;
 }
-.bootstrap-admin-content-title .action.btn:active{
+
+/** Button which is an action */
+.btn.action:active{
     box-shadow: none;
 }
 
