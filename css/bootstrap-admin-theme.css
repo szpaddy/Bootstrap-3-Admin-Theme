@@ -87,6 +87,10 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-panel-content table{
     margin-bottom: 0;
 }
+.bootstrap-admin-panel-content dl{
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 /** Panel with no-table content **/
 .bootstrap-admin-no-table-panel,
