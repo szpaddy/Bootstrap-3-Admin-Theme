@@ -12,6 +12,11 @@
         <!-- Bootstrap Admin Theme -->
         <link href="css/bootstrap-admin-theme.css" rel="stylesheet" media="screen">
 
+        <!-- Bootstrap Switch (the On-Off buttons) -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="stylesheet" href="vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css">
+        <link rel="stylesheet" href="http://bdmdesign.github.io/bootstrap-switch/static/stylesheets/flat-ui-fonts.css">
+
         <!-- Custom styles -->
         <style type="text/css">
             .buttons-title{
@@ -28,6 +33,26 @@
                 float: left;
                 width: 25%;
                 line-height: 25px;
+            }
+            .panel-bootstrap-switch,
+            .panel-bootstrap-switch .bootstrap-admin-panel-content{
+                float: left;
+            }
+            .panel-bootstrap-switch .buttons-group{
+                margin-top: 0;
+            }
+            .panel-bootstrap-switch .buttons-group .has-switch{
+                margin-top: 10px;
+            }
+            .panel-bootstrap-switch #btn-destroy-switch,
+            .panel-bootstrap-switch #btn-create{
+                margin-top: 5px;
+            }
+            .panel-bootstrap-switch #btn-destroy-switch{
+                margin-bottom: 10px;
+            }
+            .panel-bootstrap-switch .bootstrap-switch-footer{
+                margin-top: 20px;
             }
         </style>
 
@@ -430,6 +455,82 @@
                     </div>
 
                     <div class="row">
+                        <div class="panel panel-default panel-bootstrap-switch">
+                            <div class="panel-heading">
+                                <div class="text-muted bootstrap-admin-box-title">Bootstrap Switch buttons (the On-Off buttons)</div>
+                            </div>
+                            <div class="bootstrap-admin-panel-content">
+                                <div class="col-md-2">
+                                    <h4>Size</h4>
+                                    <div class="buttons-group">
+                                        <input type="checkbox" checked class="switch-large">
+                                        <input type="checkbox" checked>
+                                        <input type="checkbox" checked class="switch-small">
+                                        <input type="checkbox" checked class="switch-mini">
+                                        <input id="dimension-switch" type="checkbox" checked>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h4>Colors</h4>
+                                    <div class="buttons-group">
+                                        <input type="checkbox" checked data-on="primary" data-off="info">
+                                        <input type="checkbox" checked data-on="info" data-off="success">
+                                        <input type="checkbox" checked data-on="success" data-off="warning">
+                                        <input type="checkbox" checked data-on="warning" data-off="danger">
+                                        <input type="checkbox" checked data-on="danger" data-off="default">
+                                        <input type="checkbox" checked data-on="default" data-off="primary">
+                                        <input type="checkbox" id="change-color-switch" checked data-on="default" data-off="primary">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h4>Disabled / Readonly</h4>
+                                    <div class="buttons-group">
+                                        <input type="checkbox" checked disabled>
+                                        <input type="checkbox" checked readonly>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h4>Text</h4>
+                                    <div class="buttons-group">
+                                        <input type="checkbox" checked data-text-label="TV">
+                                        <input type="checkbox" checked data-on-label="<i class='glyphicon glyphicon-ok glyphicon-white'></i>" data-offlabel="<i class='glyphicon glyphicon-remove'></i>">
+                                        <input type="checkbox" checked class="switch-large" data-label-icon="glyphicon glyphicon-fullscreen" data-onlabel="<i class='glyphicon glyphicon-ok glyphicon-white'></i>" data-off-label="<i class='glyphicon glyphicon-remove'></i>">
+                                        <input type="checkbox" checked class="switch-large" data-label-icon="glyphicon glyphicon-youtube glyphicon-large" data-on-label="<i class='glyphicon glyphicon-thumbs-up glyphicon-white'></i>" data-off-label="<i class='glyphicon glyphicon-thumbs-down'></i>">
+                                        <input type="checkbox" class="switch-large" checked data-label-icon="fui-video" data-on-label="<i class='fui-check glyphicon glyphicon-white'></i>" data-off-label="<i class='fui-cross'></i>">
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h4>Destroy / Create</h4>
+                                    <div class="buttons-group">
+                                        <input type="checkbox" id="destroy-switch" checked="">
+                                        <button id="btn-destroy-switch" class="btn btn-default">Destroy me!</button>
+                                    </div>
+                                    <div class="buttons-group">
+                                        <input id="create-switch" type="checkbox" checked="">
+                                        <div id="btn-create" class="btn btn-default">Create</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h4>Radio</h4>
+                                    <div class="buttons-group">
+                                        <div class="form-group">
+                                            <label for="option1">Option 1</label>
+                                            <input id="option1" type="radio" name="radio1" class="radio1" value="option1">
+                                            <label for="option2">Option 2</label>
+                                            <input id="option2" type="radio" name="radio1" class="radio1" value="option2">
+                                            <label for="option3">Option 3</label>
+                                            <input id="option3" type="radio" name="radio1" class="radio1" value="option3">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 bootstrap-switch-footer">
+                                    More examples and details: <a href="http://www.bootstrap-switch.org" target="_blank">http://www.bootstrap-switch.org</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <div class="text-muted bootstrap-admin-box-title">Icons</div>
@@ -598,5 +699,38 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/twitter-bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="vendors/bootstrap-switch/build/js/bootstrap-switch.min.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                /*
+                 * Initialize all the inputs
+                 */
+                $('input[type="checkbox"],[type="radio"]').not('#create-switch').bootstrapSwitch();
+
+                /*
+                 * Destroy
+                 */
+                $('#btn-destroy-switch').on('click', function() {
+                    $('#destroy-switch').bootstrapSwitch('destroy');
+                    $(this).remove();
+                });
+
+                /*
+                 * Create
+                 */
+                $('#btn-create').on('click', function() {
+                    $('#create-switch').bootstrapSwitch();
+                    $(this).remove();
+                });
+
+                /*
+                 * Radio
+                 */
+                $('.radio1').on('switch-change', function() {
+                    $('.radio1').bootstrapSwitch('toggleRadioState');
+                });
+            });
+        </script>
     </body>
 </html>
