@@ -110,7 +110,7 @@ body.bootstrap-admin-with-small-navbar{
     border: 0;
     box-shadow: initial;
     margin-bottom: 0;
-    min-height: initial;
+    min-height: 26px;
     z-index: 1030;
 }
 .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child{
