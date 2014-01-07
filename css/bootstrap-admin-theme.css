@@ -281,3 +281,8 @@ footer p{
 .bootstrap-admin-login-form input[type="checkbox"]{
     margin-right: 5px;
 }
+
+/** Miscellaneous styles */
+bootstrap-currency-value{
+    text-align: right;
+}
