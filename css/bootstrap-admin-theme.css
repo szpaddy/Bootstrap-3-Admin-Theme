@@ -283,6 +283,6 @@ footer p{
 }
 
 /** Miscellaneous styles */
-bootstrap-currency-value{
+.bootstrap-currency-value{
     text-align: right;
 }
