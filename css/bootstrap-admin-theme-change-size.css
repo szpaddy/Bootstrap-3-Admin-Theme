@@ -3,6 +3,9 @@
     Author     : Krzysztof Niziol <krzysztof.niziol@meritoo.pl>
 */
 
+.bootstrap-admin-theme-change-size li:first-of-type{
+    padding-left: 0 !important;
+}
 .bootstrap-admin-theme-change-size .size-changer{
     cursor: pointer;
 }
