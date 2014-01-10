@@ -1,0 +1,57 @@
+/* 
+    Created on : 2014-01-10, 22:47:39
+    Author     : Krzysztof Niziol <krzysztof.niziol@meritoo.pl>
+*/
+
+/** Body **/
+body{
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    padding-top: 60px; /* Required, because main menu / navbar has "navbar-fixed-top" class and is sticked to the top */
+}
+body.bootstrap-admin-with-small-navbar{
+    padding-top: 85px;
+}
+
+/** Content of the panel **/
+.bootstrap-admin-panel-content{
+    padding: 14px;
+}
+
+/** Horizontal navbars */
+.bootstrap-admin-navbar-sm{
+    min-height: 24px;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li.text,
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li a{
+    font-size: 12px;
+    padding: 2px 8px;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li.text{
+    padding-top: 4px;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav .dropdown-menu > li > a{
+    font-size: 13px;
+}
+.bootstrap-admin-navbar-under-small{
+    top: 24px;
+}
+
+/** Side Bar **/
+.bootstrap-admin-navbar-side > li > a {
+    padding: 7px 13px;
+}
+.bootstrap-admin-navbar-side > .active > a {
+    padding: 7px 13px;
+}
+
+/** Breadcrumbs **/
+.bootstrap-admin-breadcrumb{
+    margin: 7px 13px;
+}
+
+/** Alert **/
+.bootstrap-admin-alert{
+    padding: 7px 13px;
+}

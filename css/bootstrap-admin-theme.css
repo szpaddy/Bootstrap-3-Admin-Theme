@@ -80,6 +80,7 @@ body.bootstrap-admin-with-small-navbar{
     box-shadow: none;
 }
 
+
 /** Content of the panel **/
 .bootstrap-admin-panel-content{
     padding: 15px;
@@ -116,6 +117,7 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child{
     margin-left: -15px;
 }
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li.text,
 .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li a{
     font-size: 13px;
     padding: 3px 8px;
@@ -234,9 +236,20 @@ body.bootstrap-admin-with-small-navbar{
 }
 
 /** Footer **/
-footer p{
-    text-align: right;
+.row-footer{
+    margin-top: 15px;
 }
+.row-footer footer p:first-of-type{
+    float: left;
+}
+.row-footer footer p:nth-of-type(2){
+    float: right;
+}
+.row-footer footer p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 
 /** Bootstrap 3 Typeahead plugin **/
 .typeahead{

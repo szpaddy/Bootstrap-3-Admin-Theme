@@ -22,6 +22,16 @@ Details:
 * WYSIWYG Editors
 * UI & Interface
 
+## Available sizes
+
+#### Normal
+
+You should include all resources without resources with "-small" sufix in name, e.g. ```bootstrap-small.css```.
+
+#### Small
+
+You should include all resources with "-small" sufix in name, e.g. ```bootstrap-small.css```.
+
 ## License
 
 The MIT License (MIT)

@@ -1,0 +1,11 @@
+/* 
+    Created on : 2014-01-10, 22:47:39
+    Author     : Krzysztof Niziol <krzysztof.niziol@meritoo.pl>
+*/
+
+.bootstrap-admin-theme-change-size .size-changer{
+    cursor: pointer;
+}
+.bootstrap-admin-theme-change-size .size-changer.active{
+    color: #00A1F1;
+}

@@ -11,10 +11,12 @@
 
         <!-- Bootstrap Admin Theme -->
         <link rel="stylesheet" media="screen" href="css/bootstrap-admin-theme.css">
+        <link rel="stylesheet" media="screen" href="css/bootstrap-admin-theme-change-size.css">
 
         <!-- Bootstrap Switch (the On-Off buttons) -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="vendors/bootstrap-switch/build/css/bootstrap3/bootstrap-switch.min.css">
+        <link rel="stylesheet" href="css/bootstrap-switch-small.css">
         <link rel="stylesheet" href="http://bdmdesign.github.io/bootstrap-switch/static/stylesheets/flat-ui-fonts.css">
 
         <!-- Custom styles -->
@@ -68,6 +70,11 @@
             <div class="container">
                 <div class="row">
                     <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left bootstrap-admin-theme-change-size">
+                            <li class="text">Change size:</li>
+                            <li><a class="size-changer small">Small</a></li>
+                            <li><a class="size-changer large active">Large</a></li>
+                        </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#">Link</a></li>
                             <li><a href="#">Link</a></li>
@@ -699,6 +706,7 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/twitter-bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-admin-theme-change-size.js"></script>
         <script type="text/javascript" src="vendors/bootstrap-switch/build/js/bootstrap-switch.min.js"></script>
 
         <script type="text/javascript">
