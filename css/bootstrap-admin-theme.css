@@ -237,13 +237,8 @@ body.bootstrap-admin-with-small-navbar{
 
 /** Footer **/
 .row-footer{
+    background-color: #F8F8F8;
     margin-top: 15px;
-}
-.row-footer footer p:first-of-type{
-    float: left;
-}
-.row-footer footer p:nth-of-type(2){
-    float: right;
 }
 .row-footer footer p{
     margin-bottom: 15px;
@@ -298,4 +293,10 @@ body.bootstrap-admin-with-small-navbar{
 /** Miscellaneous styles */
 .bootstrap-currency-value{
     text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
 }
