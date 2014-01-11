@@ -7,6 +7,24 @@
     font-size: 13px;
     padding: 5px 10px;
 }
+.btn-lg {
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 1.30;
+    padding: 8px 13px;
+}
+.btn-sm {
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 1.4;
+    padding: 4px 8px;
+}
+.btn-xs {
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 1.35;
+    padding: 1px 4px;
+}
 
 .navbar{
     margin-bottom: 17px;
