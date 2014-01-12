@@ -19,6 +19,25 @@ body.bootstrap-admin-with-small-navbar{
     padding: 14px;
 }
 
+/** Table with actions */
+.bootstrap-admin-table-with-actions > thead > tr > th,
+.bootstrap-admin-table-with-actions > tbody > tr > th,
+.bootstrap-admin-table-with-actions > tfoot > tr > th,
+.bootstrap-admin-table-with-actions > thead > tr > td,
+.bootstrap-admin-table-with-actions > tbody > tr > td,
+.bootstrap-admin-table-with-actions > tfoot > tr > td {
+    line-height: 1.65;
+}
+
+/** Buttons placed into the Actions column */
+table > tbody > tr > td.actions{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+table > tbody > tr > td.actions .btn{
+    font-size: 12px;
+}
+
 /** Horizontal navbars */
 .bootstrap-admin-navbar-sm{
     min-height: 24px;
