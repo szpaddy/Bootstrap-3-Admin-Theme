@@ -51,6 +51,9 @@
     padding: 2px 18px;
 }
 
+.form-group{
+    margin-bottom: 12px;
+}
 .form-control{
     font-size: 13px;
     height: 30px;
