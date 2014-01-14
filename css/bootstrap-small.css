@@ -129,3 +129,8 @@ h6,
 .alert h4{
     margin-bottom: 6px;
 }
+
+.close{
+    font-size: 19px;
+    line-height: 15px;
+}
