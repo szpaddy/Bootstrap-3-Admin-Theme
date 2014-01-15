@@ -74,3 +74,8 @@ table > tbody > tr > td.actions .btn{
 .bootstrap-admin-alert{
     padding: 7px 13px;
 }
+
+/** Tabs */
+.bootstrap-admin-tabs{
+    margin-bottom: 15px;
+}

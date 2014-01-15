@@ -243,6 +243,9 @@ table > tbody > tr > td.actions .btn{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
+.bootstrap-admin-tabs{
+    margin-bottom: 20px;
+}
 
 /** Alert **/
 .bootstrap-admin-alert{
