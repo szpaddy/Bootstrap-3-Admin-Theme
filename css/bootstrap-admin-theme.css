@@ -57,7 +57,8 @@ body.bootstrap-admin-with-small-navbar{
 }
 
 /** Title of the content */
-.bootstrap-admin-content-title h1{
+.bootstrap-admin-content-title h1,
+.bootstrap-admin-content-title h2{
     display: inline-block;
     margin-top: 0;
 }
