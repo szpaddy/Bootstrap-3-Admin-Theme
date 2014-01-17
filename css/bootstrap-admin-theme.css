@@ -280,11 +280,11 @@ table > tbody > tr > td.actions .btn{
 }
 
 /** Footer **/
-.row-footer{
+.navbar-footer{
     background-color: #F8F8F8;
     margin-top: 15px;
 }
-.row-footer footer p{
+.navbar-footer footer p{
     margin-bottom: 15px;
     margin-top: 15px;
 }
