@@ -19,6 +19,20 @@ body.bootstrap-admin-with-small-navbar{
     padding: 14px;
 }
 
+/** Box above the title of content */
+.bootstrap-admin-above-content-title{
+    margin-bottom: 5px;
+}
+
+/** Title of the content */
+.bootstrap-admin-content-title{
+    margin-bottom: 5px;
+}
+.bootstrap-admin-content-title h1,
+.bootstrap-admin-content-title h2{
+    margin-bottom: 2px;
+}
+
 /** Table with actions */
 .bootstrap-admin-table-with-actions > thead > tr > th,
 .bootstrap-admin-table-with-actions > tbody > tr > th,

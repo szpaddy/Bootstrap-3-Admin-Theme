@@ -56,10 +56,21 @@ body.bootstrap-admin-with-small-navbar{
     display: inline;
 }
 
+/** Box above the title of content */
+.bootstrap-admin-above-content-title{
+    margin-bottom: 10px;
+}
+.bootstrap-admin-above-content-title .above-content-title{
+}
+
 /** Title of the content */
+.bootstrap-admin-content-title{
+    margin-bottom: 10px;
+}
 .bootstrap-admin-content-title h1,
 .bootstrap-admin-content-title h2{
     display: inline-block;
+    margin-bottom: 5px;
     margin-top: 0;
 }
 .bootstrap-admin-content-title .action,
