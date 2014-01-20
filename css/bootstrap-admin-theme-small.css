@@ -93,3 +93,14 @@ table > tbody > tr > td.actions .btn{
 .bootstrap-admin-tabs{
     margin-bottom: 15px;
 }
+
+/** Miscellaneous styles */
+.bootstrap-admin-back-to-parent{
+    padding: 5px;
+}
+.bootstrap-admin-back-to-parent .text{
+}
+.bootstrap-admin-back-to-parent .action{
+    margin-left: 5px;
+}
+

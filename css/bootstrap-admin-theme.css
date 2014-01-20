@@ -362,3 +362,12 @@ table > tbody > tr > td.actions .btn{
 .right{
     float: right;
 }
+.bootstrap-admin-back-to-parent{
+    padding: 10px;
+    text-align: center;
+}
+.bootstrap-admin-back-to-parent .text{
+}
+.bootstrap-admin-back-to-parent .action{
+    margin-left: 5px;
+}
