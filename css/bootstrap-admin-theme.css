@@ -163,6 +163,11 @@ table > tbody > tr > td.actions .btn{
     top: 25px;
     z-index: 1020;
 }
+.bootstrap-admin-navbar .navbar-nav > li > a:focus,
+.bootstrap-admin-navbar .navbar-nav > li > a:hover {
+    background-color: #e7e7e7;
+    color: #222;
+}
 
 /** Side Bar **/
 .bootstrap-admin-navbar-side {
