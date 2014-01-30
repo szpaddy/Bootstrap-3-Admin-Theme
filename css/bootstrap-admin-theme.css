@@ -56,11 +56,27 @@ body.bootstrap-admin-with-small-navbar{
     display: inline;
 }
 
-/** Box above the title of content */
-.bootstrap-admin-above-content-title{
+/** Box above and below the title of content */
+.bootstrap-admin-above-content-title,
+.bootstrap-admin-below-content-title{
     margin-bottom: 10px;
 }
-.bootstrap-admin-above-content-title .above-content-title{
+.bootstrap-admin-above-content-title .above-content-title,
+.bootstrap-admin-below-content-title .below-content-title{
+    display: inline-block;
+    margin-left: 10px;
+}
+.bootstrap-admin-above-content-title .above-content-title:first-of-type,
+.bootstrap-admin-below-content-title .below-content-title:first-of-type{
+    margin-left: 0;
+}
+.bootstrap-admin-above-content-title .above-content-title .name,
+.bootstrap-admin-below-content-title .below-content-title .name{
+    color: #5e5e5e;
+    font-weight: bold;
+}
+.bootstrap-admin-above-content-title .above-content-title .value,
+.bootstrap-admin-below-content-title .below-content-title .value{
 }
 
 /** Title of the content */

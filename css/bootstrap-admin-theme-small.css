@@ -20,7 +20,8 @@ body.bootstrap-admin-with-small-navbar{
 }
 
 /** Box above the title of content */
-.bootstrap-admin-above-content-title{
+.bootstrap-admin-above-content-title,
+.bootstrap-admin-below-content-title{
     margin-bottom: 5px;
 }
 
