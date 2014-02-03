@@ -310,23 +310,15 @@ table > tbody > tr > td.actions .btn{
     margin-left: -50%;
     text-shadow: 0 0 2px #111, 0 0 0.2em #111;
 }
-/*
-.progress{
-    margin-bottom: 0px;
-    position: relative;
-    span.value-container{
-        font-size:13px;
-        color: #fff; 
-        position: absolute;
-        left: 50%;
-        line-height: 20px;
-    }
-    span.value{
-        margin-left: -50%;
-        text-shadow: 1px 1px #111;
-    }
+.progress-bar-inline{
+    display: inline-block;
+    vertical-align: middle;
 }
-*/
+.progress-bar-inline .progress{
+    margin-bottom: 0;
+    margin-top: -3px;
+}
+}
 
 /** Skip padding of elements on the edge **/
 .bootstrap-admin-no-edges-padding > div:first-child{
