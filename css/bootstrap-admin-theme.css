@@ -318,6 +318,11 @@ table > tbody > tr > td.actions .btn{
     margin-bottom: 0;
     margin-top: -3px;
 }
+
+/** Labels */
+.bootstrap-admin-label-thin{
+    font-weight: normal;
+    padding-top: 0.3em;
 }
 
 /** Skip padding of elements on the edge **/
