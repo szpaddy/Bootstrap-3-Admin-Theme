@@ -96,6 +96,11 @@ table > tbody > tr > td.actions .btn{
     margin-bottom: 15px;
 }
 
+/** Progress bars */
+.progress-with-value span.value{
+    font-size: 13px;
+}
+
 /** Miscellaneous styles */
 .bootstrap-admin-back-to-parent{
     padding: 5px;

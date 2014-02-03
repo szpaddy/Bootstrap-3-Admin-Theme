@@ -296,6 +296,38 @@ table > tbody > tr > td.actions .btn{
     margin-bottom: 3px;
 }
 
+/** Progress bars */
+.progress-with-value{
+    position: relative;
+}
+.progress-with-value span.value-container{
+    color: #fff;
+    left: 50%;
+    position: absolute;
+}
+.progress-with-value span.value{
+    line-height: 21px;
+    margin-left: -50%;
+    text-shadow: 0 0 2px #111, 0 0 0.2em #111;
+}
+/*
+.progress{
+    margin-bottom: 0px;
+    position: relative;
+    span.value-container{
+        font-size:13px;
+        color: #fff; 
+        position: absolute;
+        left: 50%;
+        line-height: 20px;
+    }
+    span.value{
+        margin-left: -50%;
+        text-shadow: 1px 1px #111;
+    }
+}
+*/
+
 /** Skip padding of elements on the edge **/
 .bootstrap-admin-no-edges-padding > div:first-child{
     padding-left: 0;
