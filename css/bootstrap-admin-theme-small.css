@@ -101,6 +101,14 @@ table > tbody > tr > td.actions .btn{
     font-size: 13px;
 }
 
+/** Update left and right padding of elements on the edge **/
+.bootstrap-admin-no-edges-padding > div:first-child{
+    padding-right: 10px;
+}
+.bootstrap-admin-no-edges-padding > div:last-child{
+    padding-left: 10px;
+}
+
 /** Miscellaneous styles */
 .bootstrap-admin-back-to-parent{
     padding: 5px;
