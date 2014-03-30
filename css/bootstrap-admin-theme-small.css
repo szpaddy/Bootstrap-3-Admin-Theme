@@ -102,10 +102,10 @@ table > tbody > tr > td.actions .btn{
 }
 
 /** Update left and right padding of elements on the edge **/
-.bootstrap-admin-no-edges-padding > div:first-child{
+.bootstrap-admin-no-edges-padding > div:first-child:not(.col-lg-12):not(.col-md-12):not(.col-sm-12):not(.col-xs-12){
     padding-right: 10px;
 }
-.bootstrap-admin-no-edges-padding > div:last-child{
+.bootstrap-admin-no-edges-padding > div:last-child:not(.col-lg-12):not(.col-md-12):not(.col-sm-12):not(.col-xs-12){
     padding-left: 10px;
 }
 
