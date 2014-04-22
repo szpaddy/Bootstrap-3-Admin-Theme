@@ -19,6 +19,7 @@
         <link rel="stylesheet" media="screen" href="vendors/uniform/themes/default/css/uniform.default.min.css">
         <link rel="stylesheet" media="screen" href="css/uniform.default.fixes.css">
         <link rel="stylesheet" media="screen" href="vendors/chosen.min.css">
+        <link rel="stylesheet" media="screen" href="vendors/selectize/dist/css/selectize.bootstrap3.css">
         <link rel="stylesheet" media="screen" href="vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/core-b3.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -283,7 +284,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-lg-2 control-label" for="select01">Select list</label>
+                                            <label class="col-lg-2 control-label" for="select01">With Chosen plugin</label>
                                             <div class="col-lg-10">
                                                 <select id="select01" class="chzn-select" style="width: 150px">
                                                     <option>something</option>
@@ -291,6 +292,18 @@
                                                     <option>3</option>
                                                     <option>4</option>
                                                     <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-lg-2 control-label" for="select02">With Selectize plugin</label>
+                                            <div class="col-lg-10">
+                                                <select id="select02" class="selectize-select" style="width: 150px">
+                                                    <option value="1">something</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -439,6 +452,7 @@
         <script type="text/javascript" src="js/bootstrap-admin-theme-change-size.js"></script>
         <script type="text/javascript" src="vendors/uniform/jquery.uniform.min.js"></script>
         <script type="text/javascript" src="vendors/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="vendors/selectize/dist/js/standalone/selectize.min.js"></script>
         <script type="text/javascript" src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
         <script type="text/javascript" src="vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/javascripts/bootstrap-wysihtml5/wysihtml5.js"></script>
         <script type="text/javascript" src="vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/javascripts/bootstrap-wysihtml5/core-b3.js"></script>
@@ -450,6 +464,7 @@
                 $('.datepicker').datepicker();
                 $('.uniform_on').uniform();
                 $('.chzn-select').chosen();
+                $('.selectize-select').selectize();
                 $('.textarea-wysihtml5').wysihtml5({
                     stylesheets: [
                         'vendors/bootstrap-wysihtml5-rails-b3/vendor/assets/stylesheets/bootstrap-wysihtml5/wysiwyg-color.css'

@@ -118,3 +118,17 @@ table > tbody > tr > td.actions .btn{
 .bootstrap-admin-back-to-parent .action{
     margin-left: 5px;
 }
+
+/** Selectize plugin */
+.selectize-input{
+    float: left;
+    line-height: 1.25;
+    min-height: 30px;
+    padding: 6px 10px;
+}
+.selectize-dropdown,
+.selectize-input,
+.selectize-input input{
+    font-size: 13px;
+    line-height: 1.25;
+}
