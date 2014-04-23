@@ -1,4 +1,4 @@
-/* 
+/*
     * Created on : 2014-01-10, 22:47:39
     * Author     : Meritoo.pl, http://www.meritoo.pl
     * Copyright  : Meritoo.pl
@@ -21,18 +21,23 @@ body.bootstrap-admin-with-small-navbar{
 }
 
 /** Box above the title of content */
-.bootstrap-admin-above-content-title,
-.bootstrap-admin-below-content-title{
+.bootstrap-admin-above-content-title{
     margin-bottom: 5px;
+}
+.bootstrap-admin-below-content-title{
+    margin-bottom: 10px;
 }
 
 /** Title of the content */
 .bootstrap-admin-content-title{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .bootstrap-admin-content-title h1,
 .bootstrap-admin-content-title h2{
     margin-bottom: 2px;
+}
+.bootstrap-admin-content-title.bootstrap-admin-content-title-with-above-content{
+    margin-bottom: 5px;
 }
 
 /** Table with actions */
