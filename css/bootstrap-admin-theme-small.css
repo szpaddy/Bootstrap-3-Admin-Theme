@@ -140,3 +140,8 @@ table > tbody > tr > td.actions .btn{
 .selectize-control.single .selectize-input:after{
     right: 10px;
 }
+
+/** Page header */
+.page-header{
+    margin-bottom: 15px;
+}

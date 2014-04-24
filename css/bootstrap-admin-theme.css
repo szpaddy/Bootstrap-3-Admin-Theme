@@ -458,3 +458,12 @@ html.error-page .centering{
 html.error-page h2.without-margin{
     margin-top: 0;
 }
+
+/** Page header */
+.page-header,
+.page-header h1{
+    margin-top: 0;
+}
+.page-header h1{
+    margin-bottom: 0;
+}
