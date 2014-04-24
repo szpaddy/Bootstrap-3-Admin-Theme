@@ -137,3 +137,6 @@ table > tbody > tr > td.actions .btn{
     font-size: 13px;
     line-height: 1.25;
 }
+.selectize-control.single .selectize-input:after{
+    right: 10px;
+}
