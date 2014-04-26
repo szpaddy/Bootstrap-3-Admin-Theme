@@ -426,39 +426,6 @@ table > tbody > tr > td.actions .btn{
     margin-left: 5px;
 }
 
-/** Error page, e.g. 404 error */
-html.error-page{
-    height: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: hidden;
-    width: 100%;
-}
-html.error-page body{
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-html.error-page .container-fluid{
-    height:100%;
-    display:table;
-    width: 100%;
-    padding: 0;
-}
-html.error-page .row-fluid{
-    display:table-cell;
-    height: 100%;
-    vertical-align: middle;
-}
-html.error-page .centering{
-    float:none;
-    margin:0 auto;
-}
-html.error-page h2.without-margin{
-    margin-top: 0;
-}
-
 /** Page header */
 .page-header,
 .page-header h1{
