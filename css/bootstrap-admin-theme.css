@@ -116,6 +116,9 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-content-title.bootstrap-admin-content-subtitle{
     margin-top: 25px;
 }
+.bootstrap-admin-content-title.bootstrap-admin-content-subtitle .action{
+    top: 2px;
+}
 .bootstrap-admin-content-title.bootstrap-admin-content-title-with-above-content{
     margin-top: 5px;
 }
