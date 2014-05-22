@@ -113,6 +113,15 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-content-title-buttons{
     float: right;
 }
+.bootstrap-admin-content-title.bootstrap-admin-content-subtitle{
+    margin-top: 25px;
+}
+.bootstrap-admin-content-title.bootstrap-admin-content-title-with-above-content{
+    margin-top: 5px;
+}
+.bootstrap-admin-content-title.bootstrap-admin-content-title-with-below-content{
+    margin-bottom: 5px;
+}
 
 /** Button which is an action */
 .btn.action:active{

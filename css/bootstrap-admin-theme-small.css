@@ -36,8 +36,14 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-content-title h2{
     margin-bottom: 2px;
 }
+.bootstrap-admin-content-title.bootstrap-admin-content-subtitle{
+    margin-top: 20px;
+}
 .bootstrap-admin-content-title.bootstrap-admin-content-title-with-above-content{
-    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.bootstrap-admin-content-title.bootstrap-admin-content-title-with-below-content{
+    margin-bottom: 3px;
 }
 
 /** Table with actions */
@@ -144,4 +150,5 @@ table > tbody > tr > td.actions .btn{
 /** Page header */
 .page-header{
     margin-bottom: 15px;
+    padding-bottom: 5px;
 }
