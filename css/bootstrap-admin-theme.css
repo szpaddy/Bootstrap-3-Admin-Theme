@@ -446,3 +446,19 @@ table > tbody > tr > td.actions .btn{
 .page-header h1{
     margin-bottom: 0;
 }
+
+/** Modal Window */
+.modal .modal-footer {
+    margin-top: 0px;
+}
+.modal .modal-body #modal-communiques{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.modal .modal-body .form-group:last-of-type{
+    margin-bottom: 0;
+}
+.modal .modal-body textarea {
+    resize: none;
+    height: 73px;
+}
