@@ -151,6 +151,11 @@ table > tbody > tr > td.actions .btn{
 }
 
 /** Content of the panel **/
+.bootstrap-admin-main-panel{
+    margin-bottom: 0;
+}
+
+/** Content of the panel **/
 .bootstrap-admin-panel-content{
     padding: 15px;
 }
