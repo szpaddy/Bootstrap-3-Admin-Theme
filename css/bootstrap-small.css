@@ -36,7 +36,8 @@
 }
 .navbar-brand{
     font-size: 16px;
-    padding: 8px 12px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     height: 36px;
 }
 .navbar-nav > li > a{
