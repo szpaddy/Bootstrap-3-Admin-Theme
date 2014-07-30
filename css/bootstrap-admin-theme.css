@@ -96,15 +96,15 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-content-title .action,
 .bootstrap-admin-content-title-h1 .action{
     float: right;
-    margin-right: 10px;
+    margin-left: 10px;
     position: relative;
     top: 5px;
 }
 .bootstrap-admin-content-title-h2 .action{
     top: 0;
 }
-.bootstrap-admin-content-title .action:first-of-type{
-    margin-right: 0;
+.bootstrap-admin-content-title .action:last-child{
+    margin-left: 0;
 }
 .bootstrap-admin-content-title .action.btn{
     padding-left: 0;
