@@ -26,35 +26,39 @@
         <!-- small navbar -->
         <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar-sm" role="navigation">
             <div class="container">
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left bootstrap-admin-theme-change-size">
-                        <li class="text">Change size:</li>
-                        <li><a class="size-changer small">Small</a></li>
-                        <li><a class="size-changer large active">Large</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li>
-                            <a href="#">Reminders <i class="glyphicon glyphicon-bell"></i></a>
-                        </li>
-                        <li>
-                            <a href="#">Settings <i class="glyphicon glyphicon-cog"></i></a>
-                        </li>
-                        <li>
-                            <a href="#">Go to frontend <i class="glyphicon glyphicon-share-alt"></i></a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" role="button" class="dropdown-toggle" data-hover="dropdown"> <i class="glyphicon glyphicon-user"></i> Username <i class="caret"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li><a href="index.html">Logout</a></li>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-left bootstrap-admin-theme-change-size">
+                                <li class="text">Change size:</li>
+                                <li><a class="size-changer small">Small</a></li>
+                                <li><a class="size-changer large active">Large</a></li>
                             </ul>
-                        </li>
-                    </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li>
+                                    <a href="#">Reminders <i class="glyphicon glyphicon-bell"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#">Settings <i class="glyphicon glyphicon-cog"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#">Go to frontend <i class="glyphicon glyphicon-share-alt"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" role="button" class="dropdown-toggle" data-hover="dropdown"> <i class="glyphicon glyphicon-user"></i> Username <i class="caret"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li><a href="index.html">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -63,36 +67,37 @@
         <nav class="navbar navbar-default navbar-fixed-top bootstrap-admin-navbar bootstrap-admin-navbar-under-small" role="navigation">
             <div class="container">
                 <div class="row">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="about.html">Admin Panel</a>
+                    <div class="col-lg-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="about.html">Admin Panel</a>
+                        </div>
+                        <div class="collapse navbar-collapse main-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-hover="dropdown">Dropdown <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li role="presentation" class="dropdown-header">Dropdown header</li>
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li role="presentation" class="dropdown-header">Dropdown header</li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
                     </div>
-                    <div class="collapse navbar-collapse main-navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-hover="dropdown">Dropdown <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li role="presentation" class="dropdown-header">Dropdown header</li>
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="presentation" class="divider"></li>
-                                    <li role="presentation" class="dropdown-header">Dropdown header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div>
-            </div><!-- /.container -->
+                </div><!-- /.container -->
         </nav>
 
         <div class="container">
@@ -161,62 +166,74 @@
                 <!-- content -->
                 <div class="col-md-10">
                     <div class="row">
-                        <div class="page-header">
-                            <h1>WYSIWYG Editors</h1>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="text-muted bootstrap-admin-box-title">CKEditor Standard</div>
-                            </div>
-                            <div class="bootstrap-admin-panel-content">
-                                <textarea id="ckeditor_standard"></textarea>
+                        <div class="col-lg-12">
+                            <div class="page-header">
+                                <h1>WYSIWYG Editors</h1>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="text-muted bootstrap-admin-box-title">CKEditor Full</div>
-                            </div>
-                            <div class="bootstrap-admin-panel-content">
-                                <textarea id="ckeditor_full"></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="text-muted bootstrap-admin-box-title">TinyMCE Basic</div>
-                            </div>
-                            <div class="bootstrap-admin-panel-content">
-                                <textarea id="tinymce_basic"></textarea>
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">CKEditor Standard</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <textarea id="ckeditor_standard"></textarea>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="text-muted bootstrap-admin-box-title">TinyMCE Full</div>
-                            </div>
-                            <div class="bootstrap-admin-panel-content">
-                                <textarea id="tinymce_full"></textarea>
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">CKEditor Full</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <textarea id="ckeditor_full"></textarea>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <div class="text-muted bootstrap-admin-box-title">Bootstrap WYSIWYG</div>
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">TinyMCE Basic</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <textarea id="tinymce_basic"></textarea>
+                                </div>
                             </div>
-                            <div class="bootstrap-admin-panel-content">
-                                <textarea id="bootstrap-editor" class="form-control" placeholder="Enter text..." style="height: 200px"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">TinyMCE Full</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <textarea id="tinymce_full"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="text-muted bootstrap-admin-box-title">Bootstrap WYSIWYG</div>
+                                </div>
+                                <div class="bootstrap-admin-panel-content">
+                                    <textarea id="bootstrap-editor" class="form-control" placeholder="Enter text..." style="height: 200px"></textarea>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -228,10 +245,12 @@
         <div class="navbar navbar-footer">
             <div class="container">
                 <div class="row">
-                    <footer role="contentinfo">
-                        <p class="left">Bootstrap 3.x Admin Theme</p>
-                        <p class="right">&copy; 2013 <a href="http://www.meritoo.pl" target="_blank">Meritoo.pl</a></p>
-                    </footer>
+                    <div class="col-lg-12">
+                        <footer role="contentinfo">
+                            <p class="left">Bootstrap 3.x Admin Theme</p>
+                            <p class="right">&copy; 2013 <a href="http://www.meritoo.pl" target="_blank">Meritoo.pl</a></p>
+                        </footer>
+                    </div>
                 </div>
             </div>
         </div>

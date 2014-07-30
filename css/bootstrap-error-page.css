@@ -37,3 +37,6 @@ html.error-page .centering{
 html.error-page h2.without-margin{
     margin-top: 0;
 }
+html.error-page .centering hr{
+    width: 75%;
+}
