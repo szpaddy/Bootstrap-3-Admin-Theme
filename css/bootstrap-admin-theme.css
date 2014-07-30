@@ -189,7 +189,16 @@ table > tbody > tr > td.actions .btn{
     z-index: 1030;
 }
 .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child{
-    margin-left: -15px;
+    margin-left: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child > li:first-child > a{
+    padding-left: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:last-child{
+    margin-right: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:last-child > li:last-child > a{
+    padding-right: 0;
 }
 .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li.text,
 .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li a{
