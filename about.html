@@ -18,29 +18,48 @@
 
         <!-- Custom styles -->
         <style type="text/css">
-            .bs-docs-home{
+            @font-face {
+                font-family: Ubuntu;
+                src: url('fonts/Ubuntu-Regular.ttf');
             }
-            .bs-masthead{
+            .bs-docs-masthead{
+                background-color: #6f5499;
+                background-image: linear-gradient(to bottom, #563d7c 0px, #6f5499 100%);
+                background-repeat: repeat-x;
+            }
+            .bs-docs-masthead{
                 padding: 0;
             }
-            .bs-masthead h1{
+            .bs-docs-masthead h1{
+                color: #fff;
                 font-size: 40px;
                 margin: 0;
                 padding: 34px 0;
                 text-align: center;
             }
-            .bs-masthead a:hover{
+            .bs-docs-masthead a:hover{
                 text-decoration: none;
             }
             .meritoo-logo a{
                 background-color: #fff;
                 border: 1px solid rgba(66, 139, 202, 0.4);
                 display: block;
-                padding: 12px 0;
+                font-family: Ubuntu;
+                padding: 22px 0;
+                text-align: center;
+            }
+            .meritoo-logo a,
+            .meritoo-logo a:hover,
+            .meritoo-logo a:focus{
+                text-decoration: none;
             }
             .meritoo-logo a img{
                 display: block;
                 margin: 0 auto;
+            }
+            .meritoo-logo a span{
+                color: #4e4b4b;
+                font-size: 18px;
             }
             .row-urls{
                 margin-top: 4px;
@@ -273,17 +292,16 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="bs-docs-home">
-                                <div class="bs-masthead">
-                                    <a href="http://getbootstrap.com" target="_blank">
-                                        <h1>Bootstrap</h1>
-                                    </a>
-                                </div>
+                            <div class="bs-docs-masthead">
+                                <a href="http://getbootstrap.com" target="_blank">
+                                    <h1>Bootstrap</h1>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 meritoo-logo">
                             <a href="http://www.meritoo.pl" target="_blank">
-                                <img src="images/meritoo_logo.png" alt="Meritoo.pl">
+                                <img src="images/logo-meritoo.png" alt="Meritoo.pl">
+                                <span>Internet software house</span>
                             </a>
                         </div>
                     </div>
