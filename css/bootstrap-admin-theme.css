@@ -484,5 +484,11 @@ table > tbody > tr > td.actions .btn{
 
 /** Panel - without data */
 .panel .panel-body .no-data{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 0 none;
+    border-radius: 4px;
+    padding: 40px;
     text-align: center;
 }
