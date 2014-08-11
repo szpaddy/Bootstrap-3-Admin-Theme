@@ -481,3 +481,8 @@ table > tbody > tr > td.actions .btn{
     resize: none;
     height: 73px;
 }
+
+/** Panel - without data */
+.panel .panel-body .no-data{
+    text-align: center;
+}
