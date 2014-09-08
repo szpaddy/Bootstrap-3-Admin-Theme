@@ -106,6 +106,9 @@ body.bootstrap-admin-with-small-navbar{
 .bootstrap-admin-content-title .action:last-child{
     margin-left: 0;
 }
+.bootstrap-admin-content-title .action.action-shifted{
+    margin-left: 20px;
+}
 .bootstrap-admin-content-title .action.btn{
     padding-left: 0;
     padding-right: 0;
